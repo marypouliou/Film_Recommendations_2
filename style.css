@@ -1,0 +1,176 @@
+
+body{
+	background-color: #fbf9ff;
+}
+
+#tv_logo{    
+	width: 12%;
+    float: left;
+    margin-top: -1%;
+    margin-left: 1%;
+}
+
+#title_bar{
+	outline: #c2d6e9 solid thick;
+    height: auto;
+    width: 82%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16pt;
+    color: #1c1c1c;
+    margin-left: 15%;
+    margin-top: 2%;
+    padding: 1%;
+}
+
+#file_uploaded{
+	color: #034198;
+	font-size: 10pt;
+	display: none;
+}
+
+#no_content_added{
+	color: red;
+	font-size: 10pt;
+	display: none;
+}
+
+#menu_navigator{
+    outline: #c2d6e9 solid thick;
+    height: auto;
+    width: 83%;
+    margin-top: 1%;
+    margin-left: 15%;
+    padding-left: 1%;
+}
+
+#menu_navigator a{
+	font-size: 16pt;
+	text-decoration: none;
+	color: #1c1c1c;
+}
+
+#menu_navigator a:hover {
+	font-size: 16pt;
+	text-decoration: none;
+	color: #1c1c1c;
+	font-style: italic;
+	-webkit-text-stroke-width: 0.5px;
+   -webkit-text-stroke-color: #c2d6e9;
+	cursor: pointer;
+}
+
+#target{
+	display: none;	
+} 
+
+#main_container{
+	margin-left: 18%;
+	margin-top: 4%;
+}
+
+
+#ranges {
+	width: 61%;
+}
+
+
+.left_emotion{
+	float: left;
+}
+
+.right_emotion{
+	text-align: right;
+    position: absolute;
+    margin-left: 66%;
+}
+
+.range_group_1{
+	display: flex;
+}
+
+.range_group_2{
+	display: flex;
+}
+
+.range_group_3{
+	display: flex;
+}
+
+.range_group_4{
+	display: flex;
+}
+
+.ranges p{
+	-webkit-appearance: none;
+    width: 100%;
+    height: 4px;
+    outline: none;
+    opacity: 0.9;
+    transition: opacity .2s;
+}
+
+#ranges .range_value{
+	margin-left: 59%;
+    margin-top: 10%;
+    font-size: 8pt;
+}
+
+.slider {
+   -webkit-appearance: none;
+    width: 52%;
+    height: 7px;
+    background: #c2d6e9;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .2s;
+    margin-top: 1.6%;
+    position: absolute;
+    margin-left: 9%;
+}
+
+
+.slider:hover {
+    opacity: 1; 
+}
+
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    appearance: none;
+    width: 25px; 
+    height: 25px; 
+    background: #5599da; 
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px; 
+    height: 25px; 
+    background: #5599da; 
+    cursor: pointer; 
+}
+
+#program_div{
+    margin-top: 5%;
+    width: 100%;
+    margin-left: -5%;
+}
+
+.program_subdiv{
+	float: left;
+    width: 20%;	
+}
+
+.program_subdiv img{
+	outline: #c2d6e9 solid thick;
+    width: 75%;
+}
+
+.program_subdiv p{
+	outline: #c2d6e9 solid thick;
+    height: auto;
+    width: 75%;
+    text-align: center;
+}
+
